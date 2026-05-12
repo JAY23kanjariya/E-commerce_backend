@@ -1,0 +1,14 @@
+{
+    "name": "jay/ecommerce-backend",
+    "description": "E-commerce website using core php for backend and mysql databae",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jay Kanjariya"
+        }
+    ]
+}
