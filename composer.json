@@ -10,5 +10,8 @@
         {
             "name": "Jay Kanjariya"
         }
-    ]
+    ],
+    "require": {
+        "firebase/php-jwt": "^7.0"
+    }
 }

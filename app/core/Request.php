@@ -61,6 +61,7 @@ class Request
 {
     public static function body()
     {
-        return json_decode(file_get_contents("php://input"), true);
+        $data = json_decode(file_get_contents("php://input"), true);
+        return $data ?? [];
     }
 }
